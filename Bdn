@@ -10,11 +10,11 @@ ob_start();
 
 $token = "753297556:AAEd_MeO9TS8cDB1vpivXh7ufk2cCxsFnXU"; // توكن بوتك
 
-define('API_KEY',$token);
+define('6322097668:AAF9pTGm7E7AVRiwnnMsZgEM0qi_e7BTbCs',$token);
 
 function bot($method,$datas=[]){$BOT_SYRIA = http_build_query($datas);
 
-$url = "https://api.telegram.org/bot".API_KEY."/".$method."?$BOT_SYRIA";
+$url = "https://api.telegram.org/bot".6322097668:AAF9pTGm7E7AVRiwnnMsZgEM0qi_e7BTbCs."/".$method."?$BOT_SYRIA";
 
 $BOTS_SYR1A = file_get_contents($url); return json_decode($BOTS_SYR1A);}
 
@@ -86,7 +86,7 @@ bot('sendmessage',[
 
 📡 CH - @TTTTTTIF
 
-👨‍💻 DEV - @VFXFV
+👨‍💻 DEV - @aness_bgd29
 
 ",
 
@@ -100,7 +100,7 @@ bot('sendmessage',[
 
 [
 
-['text'=>'المطور ♻','url'=>'t.me/VFXFV']
+['text'=>'المطور ♻','url'=>'t.me/aness_bgd29']
 
 ],
 
